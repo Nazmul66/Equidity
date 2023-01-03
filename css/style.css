@@ -1,0 +1,442 @@
+/*========================
+   google font popins
+  ========================*/
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900');
+
+/*========================
+     global Css start
+  ========================*/
+body{
+  font-family: 'Poppins', sans-serif;
+}
+a {
+text-decoration: none;
+}
+
+/*===========================
+   Header section start
+  ===========================*/
+header{
+    padding: 6px 0;
+}
+.img-alt{
+
+}
+.navbar-nav{
+ margin-left: 40px;
+}
+.navbar-nav .nav-item{
+  margin-left: 15px;
+}
+ .navbar-nav .nav-item .nav-link{
+  color: #924f35;
+ }
+.search-bar{
+ position: relative;
+ margin-right: 18px;
+}
+.search-bar .form-control{
+    border: none;
+    border-right: 2px solid #dcdde0;
+    border-radius: 0;
+    width: 46px;
+    z-index: 1;
+    background: transparent;
+    transition: all 0.3s ease-in-out;
+}
+.search-bar .fa-magnifying-glass{
+    position: absolute;
+    right: 23px;
+    top: 11px;
+}
+.search-bar .form-control:focus{
+    border-bottom: 2px solid #dcdde0; 
+    width: 200px;
+    box-shadow: none;
+    transition: all 0.3s ease-in-out;
+}
+.btn-dash{
+     padding: 10px 35px;
+    background: #924f35;
+    border-radius: 38px;
+    border: 1px solid #924f35;
+    color: #fff;
+    font-size: 14px;
+    text-transform: uppercase;
+    font-weight: 700;
+    transition: all 0.3s ease-in-out;
+}
+.btn-dash .fa-arrow-right{
+    margin-left: 20px;
+    font-size: 16px;
+}
+.btn-dash:hover{
+  background: #fff;
+  color: #924f35;
+  font-weight: 700;
+  border: 1px solid #924f35;
+  transition: all 0.3s ease-in-out;
+}
+
+/*===========================
+   banner section start
+  ===========================*/
+.banner-section{
+   background: url(../image/background.jpg);
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-position: center top;
+   padding: 200px 0;
+}
+.banner-section h2{
+  color: #3d3d3d;
+  padding: 0 50px 0 0;
+  font-size: 35px;
+  margin-bottom: 50px;
+}
+.input1 .inputbox{
+  width: 100%;
+  height: 45px;
+  border-radius: 30px;
+  font-weight: 400;
+  padding: 0 0px 0 21px;
+  font-size: 17px;
+  border: 1px solid #924f35;
+  text-transform: capitalize;
+}
+.input1 .inputbox:focus{
+   outline: none;
+}
+.btn-main .btn-class{
+    padding: 10px 25px;
+  border-radius: 30px;
+  border: 1px solid #924f35;
+  color: #924f35;
+  text-transform: capitalize;
+  transition: all 0.3s ease-in-out;
+}
+.btn-main .btn-class:hover{
+    background: #3d3d3d;
+    color: #f7f7f7;
+    transition: all 0.3s ease-in-out;
+}
+
+/*===================================
+    Business category section start
+  ===================================*/
+
+.business{
+       padding: 100px;
+}
+.business .gpimg{
+     width: 160px;
+  display: block;
+  margin: 0 auto;
+  margin-bottom: 30px;
+}
+.business h3{
+        text-align: center;
+  font-weight: 600;
+  font-size: 28px;
+    margin-bottom: 15px;
+}
+.business p{
+   padding: 0 45px;
+  text-align: center;
+  color: #161c2d;
+  font-weight: 500;
+  line-height: 26px;
+  font-size: 16px;
+}
+
+/*===========================
+   Graph section start
+  ===========================*/
+
+.graph-section{
+  padding: 125px 0;
+  background: #3d3d3d;
+}
+.graph-section h2{
+  font-size: 35px;
+  color: #f4f4f4;
+  line-height: 50px;
+  margin-bottom: 25px;
+  margin-top: 65px;
+}
+.graph-section ul li{
+    list-style: none;
+    color: #f4f4f4;
+  line-height: 45px;
+}
+.graph-section ul{
+    padding: 0;
+}
+.graph-section ul li i{
+     background: #924f35;
+  width: 35px;
+  height: 35px;
+  text-align: center;
+  line-height: 35px;
+  border-radius: 30px;
+  margin-right: 15px;
+}
+.cimage img{
+  float:right;
+}
+
+/*============================
+   subcriptions section start
+  ============================*/
+
+.subcription{
+    padding: 75px 0;
+}
+.subcription-inc{
+       background: url(../image/index.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center top;
+  padding: 120px 0;
+}
+.subcription-inc h2{
+       text-align: center;
+  margin-bottom: 40px;
+  font-size: 45px;
+  font-weight: 500;
+}
+.mailbox .form{
+         width: 100%;
+  height: 60px;
+  border-radius: 30px;
+  font-weight: 400;
+  padding: 0 0px 0 21px;
+  font-size: 17px;
+  border: none;
+  text-transform: capitalize;
+}
+.mailbox .form:focus{
+   outline: none;
+}
+.mailbox{
+  position: relative;
+}
+.mailbox .btn-send{
+    position: absolute;
+    padding: 10px 25px;
+  border-radius: 30px;
+  border: none;
+  color: #f4f4f4;
+  background: #924f35;
+  display: block;
+  top: 8px;
+  right: 20px;
+  text-transform: capitalize;
+  transition: all 0.3s ease-in-out;
+}
+.mailbox .btn-send:hover{
+    background: black;
+    color: #924f35;
+    transition: all 0.3s ease-in-out;
+}
+
+/*==============================
+       Footer section start
+  ==============================*/
+
+        /*!-- first widget start */
+footer{
+    padding: 10px 0 20px 0;
+  }
+footer h3{
+   font-weight: 500;
+  margin-bottom: 20px;
+  font-size: 25px;
+  }
+ footer p{
+    font-size: 16px;
+  line-height: 25px;
+  margin-bottom: 30px;
+  font-weight: 400;
+ }
+ .about ul{
+    padding: 0;
+ }
+ .about ul li{
+      list-style: none;
+  display: inline;
+  margin-right:7px;
+ }
+ .about ul li i{
+   width: 34px;
+  height: 34px;
+  background: #3d3d3d;
+  color: #f7f7f7;
+  border-radius: 30px;
+  text-align: center;
+  line-height: 36px;
+}
+    /*!-- first widget end */
+
+    /*!-- second widget start */
+.menu ul{
+   padding: 0;
+}
+.menu ul li{
+ list-style: none;
+ line-height: 30px;
+ font-weight: 400;
+}
+.menu ul li a{
+  color: #3d3d3d;
+}
+.menu ul li a:hover{
+  color: #924f35;
+}
+    /*!-- second widget end */
+
+    /*!-- third widget start */
+.information ul{
+    padding: 0;
+}
+.information ul li{
+    list-style: none;
+    line-height: 30px;
+}
+.information ul li a{
+ color: #3d3d3d;
+}
+.information ul li i{
+      margin-right: 8px;
+}
+    /*!-- third widget end */
+
+       /*-- footers ends part --*/ 
+
+.copyright-area{
+   margin: 25px 0 0 0;
+   border-top: 1px solid #ededed;
+   padding-top: 25px ;
+}
+.copyright-area p{
+     text-align: right;
+  margin: 6px 0 0 0;
+    font-weight: 300;
+}
+.copyright-area .simage{
+    width: 170px;
+}
+
+
+ /*  Responsive for tablet version  */
+  @media (min-width: 577px) and (max-width: 768px){
+
+.navbar-nav { margin-left: 0; margin-top: 20px;}
+.navbar-nav .nav-item { margin-left: 0;}
+.search-bar { margin-right: 0; margin-left: 0;}
+.search-bar .form-control {border: 2px solid #dcdde0; width: 100%; margin: 12px 0 26px;}
+.search-bar .form-control:focus{  width: 100%;}
+.search-bar .fa-magnifying-glass { top: 23px;}
+
+.banner-section {  padding: 80px 0;}
+.banner-section h2 { padding: 0; font-size: 32px; margin-bottom: 40px; text-align: center;}
+.input1{ margin: 0 4px;}
+.input1 .inputbox { margin-bottom: 20px;}
+.btn-main .btn-class {margin: 0 auto; display: block;}
+
+.business { padding: 80px 0 0;}
+.business .gpimg { width: 125px;}
+.business p { margin-bottom: 60px;}
+
+.graph-section { padding: 75px 0;}
+.graph-section h2 { font-size: 30px; line-height: 42px; text-align: center; margin-top: 0;}
+.cimage img { float: inherit; margin: 60px auto 0; display: block;}
+.img-fluid { max-width: 75%;}
+
+.subcription-inc { padding: 80px 0;}
+.subcription-inc h2 { margin-bottom: 35px; font-size: 40px;}
+.mailbox { margin: 0 30px;}
+.mailbox .btn-send { position: static; padding: 14px 50px; top: 0; right: 0; margin: 24px auto 0;}
+
+footer h3 {font-size: 30px; text-align: center;}
+footer p { text-align: center;}
+.about ul { text-align: center; margin-bottom: 40px;}
+.menu ul { text-align: center; margin-bottom: 40px;}
+.information ul { text-align: center;}
+.information ul li { margin: 4px 0;}
+.copyright-area .simage {width: 185px; display: block; margin: 0 auto;}
+.copyright-area p { text-align: center; margin: 12px 0 0 0;}
+
+
+
+
+
+
+
+}
+
+
+ /*  Responsive for Mobile version  */
+  @media (min-width: 320px) and (max-width: 576px){
+
+.navbar-nav { margin-left: 0; margin-top: 20px;}
+.navbar-nav .nav-item { margin-left: 0;}
+.search-bar { margin-right: 0; margin-left: 0;}
+.search-bar .form-control {border: 2px solid #dcdde0; width: 100%; margin: 0 0 26px;}
+.search-bar .form-control:focus{  width: 100%;}
+
+.banner-section {  padding: 80px 0;}
+.banner-section h2 { padding: 0; font-size: 32px; margin-bottom: 40px; text-align: center;}
+.input1{ margin: 0 8px;}
+.input1 .inputbox { margin-bottom: 20px;}
+.btn-main .btn-class {margin: 0 auto; display: block;}
+
+.business { padding: 50px 0 0;}
+.business .gpimg { width: 110px; margin-bottom: 20px;}
+.business h3 { font-size: 24px; margin-bottom: 12px;}
+.business p { padding: 0 40px; font-size: 16px; margin-bottom: 60px;}
+
+.graph-section { padding: 60px 0;}
+.graph-section h2 { font-size: 26px; text-align: center; line-height: 42px; margin-bottom: 25px; margin-top: 0;}
+.cimage img { float: none; display: block; margin: 74px auto 0;}
+.img-fluid { max-width: 80%; height: auto;}
+
+.subcription {padding: 60px 0;}
+.subcription-inc { padding: 60px 0;}
+.subcription-inc h2 { margin-bottom: 30px; font-size: 32px;}
+form{margin: 0 12px;}
+.mailbox .btn-send { position: static; top: 0; right: 0; margin: 25px auto 0;}
+
+footer h3 {text-align: center;}
+footer p {margin-bottom: 25px; text-align: center;}
+.about ul { text-align: center;}
+.menu ul { text-align: center; margin-bottom: 36px;}
+.information ul { text-align: center;}
+.information ul li { margin: 7px 0;}
+
+.copyright-area .simage { margin: 0 auto; display: block;}
+.copyright-area p {text-align: center; margin: 12px 0;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
